@@ -1,0 +1,88 @@
+:root {
+  --default: #ffffff;
+
+  --main-color: #d70411;
+  --main-hovered: #bd0410;
+  --main-lightest: #f3faff;
+  --btn-close: #eef5f9;
+  --outline: #e5e8eb;
+  --icon-color: rgb(18, 18, 18);
+  --card-trait: #f4f5f6;
+  --text-placeholder: #b2b7c2;
+  --text-dark-900: #0f1d40;
+  --card-layer: #585e7d;
+  --shadow-light: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  --shadow-dark: 3px 3px 6px rgba(0, 0, 0, 0.2);
+
+  --tooltip-background: #24182f;
+
+  --success-100: #ebfcd5;
+  --success-200: #d4f9ac;
+  --success-300: #b1ee80;
+  --success-400: #8fde5d;
+  --success-500: #5fc92e;
+  --success-600: #44ac21;
+  --success-700: #2d9017;
+  --success-800: #1a740e;
+  --success-900: #0d6008;
+
+  --warning-100: #fff5ce;
+  --warning-200: #ffe89e;
+  --warning-300: #ffd76d;
+  --warning-400: #ffc749;
+  --warning-500: #ffad0d;
+  --warning-600: #db8c09;
+  --warning-700: #b76f06;
+  --warning-800: #935404;
+  --warning-900: #7a4102;
+
+  --error-100: #ffe3d6;
+  --error-200: #ffc0ad;
+  --error-300: #ff9783;
+  --error-400: #ff6f65;
+  --error-500: #ff3236;
+  --error-600: #db2438;
+  --error-700: #b71938;
+  --error-800: #930f35;
+  --error-900: #7a0933;
+
+  /* Main Settings  */
+  --main-background-color: #0b0b0f;
+  --text-primary-color: rgb(0, 0, 0);
+  --text-secondary-color: rgb(68, 68, 68);
+
+  /* Nav Settings  */
+  --nav-link-color: rgb(0, 0, 0);
+  --nav-link-hover-color: rgb(87, 87, 87);
+  --nav-link-hover-background-color: none;
+  --nav-background-color: #0f0f0f;
+  --nav-height: 150px;
+  --nav-logo-width: 125px;
+  --nav-logo-font-size: 16px;
+
+  /* Mobile Nav Settings  */
+  --mobile-nav-background-color: rgb(155, 155, 155);
+  --mobile-nav-logo-height: 100px;
+  --mobile-nav-link-color: rgb(65, 65, 65);
+  --mobile-nav-link-hover-color: rgb(29, 29, 29);
+  --mobile-nav-link-size: 20px;
+
+  /* Card Settings  */
+  --card-background-color: rgb(216, 216, 216);
+  --card-border-radius: 10px;
+  --card-shadow: 10px 10px 20px -13px rgb(121, 121, 121);
+
+  /* Minting Area */
+  --minting-box-color: #151a1f;
+  --minting-box-heading-color: white;
+  --minting-box-info-box-color: rgb(65, 65, 65);
+  --minting-box-text-color: white;
+
+  /* Minting Button */
+  --minting-button-color: linear-gradient(180deg, #604ae5 0%, #813eee 100%);
+  --minting-button-text-color: white;
+
+  /* Dashborad */
+  --dashborad-primary-background: #111315;
+  --dashborad-secondary-background: #1a1d1f;
+}
