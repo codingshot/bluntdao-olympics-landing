@@ -31,7 +31,7 @@ const Navbar = () => {
         <RouterLink to="/#banner">
           <img
             className={style.logo}
-            src="/img/BluntDAO.png"
+            src="/img/bluntolympicscut.png"
             alt="BluntDAO Logo"
           />
         </RouterLink>
