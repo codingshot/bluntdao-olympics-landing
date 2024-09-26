@@ -10,7 +10,7 @@ const Banner = () => {
    
           </div>
           <div className={style.content}>
-            The Biggest Cannabis Competition in Thailand brough to you by Blunt DAO.
+            The Biggest Cannabis Competition in 🇹🇭 Thailand brought to you by Blunt DAO.
           </div>
 
           <div className={style.join}>
