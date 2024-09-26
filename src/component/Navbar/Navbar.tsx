@@ -37,7 +37,9 @@ const Navbar = () => {
         </RouterLink>
       </Link>
 
-      <ConnectWallet />
+      <div style={{ padding: '1.75em' }}>
+        <ConnectWallet />
+      </div>
     </div>
   );
 };

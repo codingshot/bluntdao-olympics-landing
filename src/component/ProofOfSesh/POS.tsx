@@ -3,49 +3,47 @@ import style from "./POS.module.css";
 const POS = () => {
   const items = [
     {
-      title: "Roll Up A Blunt",
+      title: "Blunt + Join Rolling Competition",
       description:
-        "A current OG Validator (BluntDAO Member) finds people to Proof of Sesh aka “Smoke with”  and rolls up a Blunt. Now any SESH device will do IRL depending on the mint",
+        "Who can roll the best. Factors include speed, smokability, and style.",
       img: "/img/roll-up.png",
     },
     {
-      title: "Light Blunt",
-      description: "Light the Blunt and hit it (or the sesh device)",
+      title: "Tiny Viking Tap Out",
+      description: "Continous smoking competitions. Last one standing wins.",
       img: "/img/burn.png",
     },
     {
-      title: "Init",
+      title: "Bera-Baddies Bake Off",
       description:
-        "Initialize rotations and pass to prospective members. Once they have hit the Blunt (or Sesh Device) they are now allowed to be given the new BluntDAO member an OG Valiators NFT (if an OG validator was present to witness this)",
+        "Who can bake the best edibles. Culinary esquisitness at its finest.",
       img: "/img/init.png",
     },
     {
-      title: "Create Wallet",
+      title: "Eye Ball Bagging Competition",
       description:
-        "During the rotation while the Blunt (or sesh device) is lit, have the new prospective member download a wallet (Solana or NEAR w/ NEAR scan the Blunt DAO code) and have them join the BluntDAO telegram or discord",
-      img: "/img/token.png",
+        "This one is for the trappers. Bag bud without a scale. Accuracy & speed is key despite the product you are working with.",
+      img: "/img/eyeball.png",
     },
     {
-      title: "Validation",
+      title: "DIY Bong Crafting",
       description:
-        "Depending on if the new member is on Solana have them send you the address, or on NEAR/Polygon have them scan the link and claim NFT. Once they get the NFT Proof of Sesh is complete",
-      img: "/img/validation.png",
+        "Based on traditional Thai bamboo-bong aka Bambong. Craftsmanship at its finest. Challenge to craft your own bong",
+      img: "/img/bambong.png",
     },
     {
-      title: "Onboard Others",
-      description: `With great Blunts comes great responsibility. As a validator it is your job to explain Proof of Sesh, but also make sure new members are given a proper orientation of all our social medias & existing community, and that they too get credit for onboarding others. Make sure they have their passphrase in a secure way and they are on telegram or discord and follow the BluntDAO twitter`,
-      img: "/img/request.png",
+      title: "Any Conditions Wild Card",
+      description: `Prepare for any conditions. For the OGs who really be out in the street.`,
+      img: "/img/wildcard.png",
     },
   ];
 
   return (
     <div className={style.container}>
       <div className={`${style.section} section`} id="pos">
-        <div className={style.header}>Proof Of Sesh</div>
+        <div className={style.header}>The Olympics Games</div>
         <div className={style.subheader}>
-          Proof of Sesh is the consensus mechanism for validating new “nodes”
-          aka members to BluntDAO. It is how you become an OG Validator in the
-          BluntDAO and earn the right to Proof of Sesh prospective members
+          Olympians around the world will be competing in these games (more TBA) representing their country on the global blunt stage. 
         </div>
 
         <div className={style.itemContainer}>
@@ -53,7 +51,7 @@ const POS = () => {
             return (
               <div key={item.title} className={style.item}>
                 <div className={style.img}>
-                  <img src={item.img} alt="" />
+                  <img src={item.img} alt={item.title} className={style.responsiveImage} />
                 </div>
                 <div className={style.heading}>
                   <div className={style.title}>{item.title}</div>

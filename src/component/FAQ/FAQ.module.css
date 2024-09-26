@@ -118,3 +118,7 @@
     font-size: 1.5rem;
   }
 }
+
+.extraPadding {
+  padding-top: 5em; /* Adjust this value as needed */
+}

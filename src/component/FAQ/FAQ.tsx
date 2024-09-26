@@ -57,8 +57,7 @@ const FQA = () => {
   ];
 
   return (
-    <div className={classes.container}>
-      <Media />
+    <div className={`${classes.container} ${classes.extraPadding}`}>
       <div className={`${classes.section}`}>
         <div className={classes.heading}>Frequently Asked Questions</div>
         {/* <div className={classes.subHeading}>
@@ -75,22 +74,22 @@ const FQA = () => {
             />
           ))}
         </div>
-        <NewsLetter />
+        {/* <NewsLetter /> */}
 
         <div className={`${classes.joinDiscord} section`}>
           <div className={classes.head1}>
             Want to Join the IRL movement onboarding the next million users to
             Web3?
           </div>
-          <div className={classes.head2}>Join our Discord Server</div>
+          <div className={classes.head2}>Join our Telegram</div>
           <a
-            href="https://discord.com/invite/e3cGSTzyWp"
+            href="https://t.me/+yQSuu5Vl6_k3YWRh"
             target="_blank"
             rel="noreferrer"
             onClick={() => gaEventTracker("click", "join-discord")}
           >
             {" "}
-            <div className={classes.discord}>Join Discord</div>{" "}
+            <div className={classes.discord}>Join</div>{" "}
           </a>
         </div>
       </div>

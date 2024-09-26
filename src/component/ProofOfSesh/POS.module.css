@@ -166,3 +166,9 @@
     font-size: 0.8rem;
   }
 }
+
+.responsiveImage {
+  max-width: 190px;
+  width: 100%;
+  height: auto;
+}

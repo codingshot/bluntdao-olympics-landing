@@ -13,6 +13,8 @@ import Review from "../component/Review/Review";
 import Footer from "../component/Footer/Footer";
 import Medium from "../component/Meduim/Medium";
 import RPOS from "./RPOS/RPOS";
+import Media from "../component/Media/Media";
+
 
 const Home = () => {
   const scrollToComment = () => {
@@ -51,9 +53,9 @@ const Home = () => {
       <Element id="banner" name="banner">
         <Banner />
       </Element>
-      {/* <Element id="pos" name="pos">
+      <Element id="pos" name="pos">
         <POS />
-      </Element> */}
+      </Element>
       {/* <Element id="rpos" name="rpos">
         <RPOS />
       </Element> */}
@@ -72,6 +74,7 @@ const Home = () => {
       {/* <Element name="testimonial">
         <Review />
       </Element> */}
+      <Media />
       <div id="roadmap">
         <BuiltWith />
       </div>
