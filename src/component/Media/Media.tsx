@@ -16,6 +16,10 @@ const media = [
     imgActive: "https://pbs.twimg.com/profile_images/1811761844186464256/qe5dWnmt_400x400.jpg",
   },
 
+{
+  url: "https://tinyvikings.xyz/",
+  imgActive: "https://tinyvikings.xyz/img/logo.svg",
+},
 
 ];
 
