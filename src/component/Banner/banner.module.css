@@ -242,8 +242,7 @@ a {
     margin-bottom: 2rem;
   }
 
-  .discord,
-  .volunteer {
+  .discord {
     padding: 1rem;
     font-size: 1rem;
     font-weight: bold;
@@ -281,5 +280,43 @@ a {
 
   .separateRough {
     height: 65px;
+  }
+}
+
+/* Override Luma's default styles */
+.discord.luma-checkout--button {
+  background-color: var(--main-color) !important;
+  color: #fff !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  padding: 1rem !important;
+  font-weight: bold !important;
+  border-radius: 50px !important;
+  text-align: center !important;
+  width: 150px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border: none !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+}
+
+.discord.luma-checkout--button:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+@media only screen and (max-width: 900px) {
+  .discord.luma-checkout--button {
+    padding: 0.5rem !important;
+    font-size: 0.8rem !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .discord.luma-checkout--button {
+    padding: 1rem !important;
+    font-size: 1rem !important;
   }
 }
