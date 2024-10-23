@@ -28,6 +28,10 @@ const media = [
   url: "https://activity.community/",
   imgActive: "https://www.activity.community/activitymaniconwhite.svg",
 },
+{
+  url: "https://t.me/LEGGONYC",
+  imgActive: "/img/leggologo.png",
+},
 
 ];
 
