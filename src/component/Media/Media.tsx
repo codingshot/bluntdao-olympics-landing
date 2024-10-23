@@ -20,6 +20,14 @@ const media = [
   url: "https://tinyvikings.xyz/",
   imgActive: "https://tinyvikings.xyz/img/logo.svg",
 },
+{
+  url: "https://www.stiiizy.com/",
+  imgActive: "https://files.elfsightcdn.com/6f4eb3ff-7870-4e49-bfcf-c60ee1f46b30/0c1e2fc3-5965-4d42-bbf3-83b09edfccde/STIIIZY.png",
+},
+{
+  url: "https://activity.community/",
+  imgActive: "https://www.activity.community/activitymaniconwhite.svg",
+},
 
 ];
 

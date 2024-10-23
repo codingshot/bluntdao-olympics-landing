@@ -1,13 +1,48 @@
+/* Add these new styles at the beginning of the file */
+@keyframes smoke1 {
+  0% { background-position: 0 0; }
+  100% { background-position: -100% -100%; }
+}
+
+@keyframes smoke2 {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% -100%; }
+}
+
 .container {
   margin: auto;
   left: 0;
   right: 0;
-  /* max-width: 2000px; */
   background: #000000;
   background-repeat: no-repeat;
   background-size: contain, cover;
   color: #fff;
   margin-top: 7.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Add this new style for the smoke effect */
+.container::before,
+.container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('path/to/smoke-texture.png');
+  background-size: 200% 200%;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.container::before {
+  animation: smoke1 60s linear infinite;
+}
+
+.container::after {
+  animation: smoke2 40s linear infinite reverse;
 }
 
 a {
@@ -320,3 +355,5 @@ a {
     font-size: 1rem !important;
   }
 }
+
+/* ... rest of the existing styles ... */
