@@ -41,6 +41,14 @@ const App = () => {
               return null;
             }}
           ></Route>
+                    <Route
+            exact
+            path="/ros"
+            component={() => {
+              window.location.replace("https://forum.bluntdao.org/blunt-olympics-run-of-show-3301809642283948");
+              return null;
+            }}
+          ></Route>
           <Route exact path="/" component={Home} />
           {/* <Route path="/tickets" component={Tickets} /> */}
           {/* <Route exact path="/calendar" component={Calendar} /> */}
