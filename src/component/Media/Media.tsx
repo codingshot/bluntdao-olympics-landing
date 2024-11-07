@@ -29,9 +29,14 @@ const media = [
   imgActive: "https://www.activity.community/activitymaniconwhite.svg",
 },
 {
+  url: "https://vialabs.io/",
+  imgActive: "/img/vialabs.svg",
+},
+{
   url: "https://t.me/LEGGONYC",
   imgActive: "/img/leggologo.png",
 },
+
 
 ];
 
