@@ -13,12 +13,12 @@ const POS = () => {
       description: "Continous smoking competitions. Last one standing wins.",
       img: "/img/burn.png",
     },
-    {
-      title: "Bera-Baddies Bake Off",
-      description:
-        "Who can bake the best edibles. Culinary esquisitness at its finest.",
-      img: "/img/init.png",
-    },
+    // {
+    //   title: "Bera-Baddies Bake Off",
+    //   description:
+    //     "Who can bake the best edibles. Culinary esquisitness at its finest.",
+    //   img: "/img/init.png",
+    // },
     {
       title: "Eye Ball Bagging Competition",
       description:
@@ -31,11 +31,11 @@ const POS = () => {
         "Based on traditional Thai bamboo-bong aka Bambong. Craftsmanship at its finest. Challenge to craft your own bong",
       img: "/img/bambong.png",
     },
-    {
-      title: "Tree vs Tree BeraChain Hoops",
-      description: `3 vs 3 basketball aka "Smackedskeball competition w/ Berachain.`,
-      img: "/img/hoops.png",
-    },
+    // {
+    //   title: "Tree vs Tree BeraChain Hoops",
+    //   description: `3 vs 3 basketball aka "Smackedskeball competition w/ Berachain.`,
+    //   img: "/img/hoops.png",
+    // },
     {
       title: "Any Conditions Wild Card",
       description: `Prepare for any conditions. For the OGs who really be out in the street.`,

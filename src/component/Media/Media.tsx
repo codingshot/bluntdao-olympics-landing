@@ -12,13 +12,17 @@ const media = [
     imgActive: "https://pbs.twimg.com/profile_images/1831950238950592513/n-rE7Yiy_400x400.jpg",
   },
   {
-    url: "https://blackdragon.meme/",
-    imgActive: "https://pbs.twimg.com/profile_images/1811761844186464256/qe5dWnmt_400x400.jpg",
+    url: "https://treehousethai.land/",
+    imgActive: "/img/Treehouse.png",
   },
 
 {
   url: "https://tinyvikings.xyz/",
   imgActive: "https://tinyvikings.xyz/img/logo.svg",
+},
+{
+  url: "https://t.me/LEGGONYC",
+  imgActive: "/img/leggologo.png",
 },
 {
   url: "https://www.stiiizy.com/",
@@ -30,12 +34,17 @@ const media = [
 },
 {
   url: "https://vialabs.io/",
-  imgActive: "/img/vialabs.svg",
+  imgActive: "/img/ViaLabs.png",
 },
 {
-  url: "https://t.me/LEGGONYC",
-  imgActive: "/img/leggologo.png",
+  url: "https://blackdragon.meme/",
+  imgActive: "https://pbs.twimg.com/profile_images/1811761844186464256/qe5dWnmt_400x400.jpg",
 },
+{
+  url: "https://proofofvibes.com/",
+  imgActive: "/img/POVWhite.png",
+},
+
 
 
 ];
